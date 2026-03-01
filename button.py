@@ -1,6 +1,7 @@
 import streamlit as st
 st.title("Interactive steamlit app")
-mame = st.text_input("enter your name : ")
+name = st.text_input("enter your name : ")
 if st.button("submit"):
     st.write(f"Hello,{name}!Welcome to Streamlit.")
+
 
